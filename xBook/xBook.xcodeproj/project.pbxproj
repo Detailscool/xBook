@@ -14,6 +14,13 @@
 		2E0F22361C8BD6E10071A0B9 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F221F1C8BD6E10071A0B9 /* MoreViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2E0F22371C8BD6E10071A0B9 /* MyConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F22261C8BD6E10071A0B9 /* MyConst.m */; settings = {ASSET_TAGS = (); }; };
 		2E0F22381C8BD6E10071A0B9 /* 隶变体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F22291C8BD6E10071A0B9 /* 隶变体.ttf */; settings = {ASSET_TAGS = (); }; };
+		2EFAC9AC1C8BED75001396D1 /* MyNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAC9A91C8BED75001396D1 /* MyNavigationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2EFAC9AD1C8BED75001396D1 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAC9AB1C8BED75001396D1 /* MyTabBarController.m */; settings = {ASSET_TAGS = (); }; };
+		2EFAC9B01C8BED85001396D1 /* UIBarButtonItem+MyExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAC9AF1C8BED85001396D1 /* UIBarButtonItem+MyExtension.m */; settings = {ASSET_TAGS = (); }; };
+		2EFAC9B31C8BEE57001396D1 /* PushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAC9B21C8BEE57001396D1 /* PushViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2EFAC9B61C8BEE66001396D1 /* RankViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAC9B51C8BEE66001396D1 /* RankViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2EFAC9B91C8BEE77001396D1 /* SearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAC9B81C8BEE77001396D1 /* SearchViewController.m */; settings = {ASSET_TAGS = (); }; };
+		2EFAC9BC1C8BEE8A001396D1 /* CircleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EFAC9BB1C8BEE8A001396D1 /* CircleViewController.m */; settings = {ASSET_TAGS = (); }; };
 		CB63561560326B6CEEF51DE2 /* libPods-xBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A958300BAA8E0F29356F80 /* libPods-xBook.a */; };
 /* End PBXBuildFile section */
 
@@ -21,8 +28,8 @@
 		07833E423352A94D41862855 /* Pods-xBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-xBook/Pods-xBook.release.xcconfig"; sourceTree = "<group>"; };
 		2E0F21FD1C8BD66A0071A0B9 /* xBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0F22011C8BD66A0071A0B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2E0F22031C8BD66A0071A0B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2E0F22041C8BD66A0071A0B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2E0F22031C8BD66A0071A0B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		2E0F22041C8BD66A0071A0B9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		2E0F220C1C8BD66A0071A0B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0F220F1C8BD66A0071A0B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E0F22111C8BD66A0071A0B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -31,7 +38,21 @@
 		2E0F22251C8BD6E10071A0B9 /* MyConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyConst.h; sourceTree = "<group>"; };
 		2E0F22261C8BD6E10071A0B9 /* MyConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyConst.m; sourceTree = "<group>"; };
 		2E0F22271C8BD6E10071A0B9 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		2E0F22291C8BD6E10071A0B9 /* 隶变体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "隶变体.ttf"; sourceTree = "<group>"; };
+		2E0F22291C8BD6E10071A0B9 /* 隶变体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "隶变体.ttf"; path = "Classes/Others/隶变体.ttf"; sourceTree = "<group>"; };
+		2EFAC9A81C8BED75001396D1 /* MyNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationViewController.h; sourceTree = "<group>"; };
+		2EFAC9A91C8BED75001396D1 /* MyNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationViewController.m; sourceTree = "<group>"; };
+		2EFAC9AA1C8BED75001396D1 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		2EFAC9AB1C8BED75001396D1 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		2EFAC9AE1C8BED85001396D1 /* UIBarButtonItem+MyExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+MyExtension.h"; sourceTree = "<group>"; };
+		2EFAC9AF1C8BED85001396D1 /* UIBarButtonItem+MyExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+MyExtension.m"; sourceTree = "<group>"; };
+		2EFAC9B11C8BEE57001396D1 /* PushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PushViewController.h; sourceTree = "<group>"; };
+		2EFAC9B21C8BEE57001396D1 /* PushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PushViewController.m; sourceTree = "<group>"; };
+		2EFAC9B41C8BEE66001396D1 /* RankViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RankViewController.h; sourceTree = "<group>"; };
+		2EFAC9B51C8BEE66001396D1 /* RankViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RankViewController.m; sourceTree = "<group>"; };
+		2EFAC9B71C8BEE77001396D1 /* SearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchViewController.h; sourceTree = "<group>"; };
+		2EFAC9B81C8BEE77001396D1 /* SearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchViewController.m; sourceTree = "<group>"; };
+		2EFAC9BA1C8BEE8A001396D1 /* CircleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CircleViewController.h; sourceTree = "<group>"; };
+		2EFAC9BB1C8BEE8A001396D1 /* CircleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CircleViewController.m; sourceTree = "<group>"; };
 		5BBF6613344571F215D876B3 /* Pods-xBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xBook/Pods-xBook.debug.xcconfig"; sourceTree = "<group>"; };
 		92A958300BAA8E0F29356F80 /* libPods-xBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -78,11 +99,6 @@
 			isa = PBXGroup;
 			children = (
 				2E0F22171C8BD6E10071A0B9 /* Classes */,
-				2E0F22031C8BD66A0071A0B9 /* AppDelegate.h */,
-				2E0F22041C8BD66A0071A0B9 /* AppDelegate.m */,
-				2E0F220C1C8BD66A0071A0B9 /* Assets.xcassets */,
-				2E0F220E1C8BD66A0071A0B9 /* LaunchScreen.storyboard */,
-				2E0F22111C8BD66A0071A0B9 /* Info.plist */,
 				2E0F22001C8BD66A0071A0B9 /* Supporting Files */,
 			);
 			path = xBook;
@@ -91,6 +107,10 @@
 		2E0F22001C8BD66A0071A0B9 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2E0F22291C8BD6E10071A0B9 /* 隶变体.ttf */,
+				2E0F220C1C8BD66A0071A0B9 /* Assets.xcassets */,
+				2E0F220E1C8BD66A0071A0B9 /* LaunchScreen.storyboard */,
+				2E0F22111C8BD66A0071A0B9 /* Info.plist */,
 				2E0F22011C8BD66A0071A0B9 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -99,11 +119,11 @@
 		2E0F22171C8BD6E10071A0B9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2E0F222A1C8BD6E10071A0B9 /* Push */,
-				2E0F222E1C8BD6E10071A0B9 /* Rank */,
-				2E0F22321C8BD6E10071A0B9 /* Search */,
-				2E0F22181C8BD6E10071A0B9 /* Circle */,
 				2E0F221C1C8BD6E10071A0B9 /* More */,
+				2E0F22181C8BD6E10071A0B9 /* Circle */,
+				2E0F222A1C8BD6E10071A0B9 /* Push */,
+				2E0F22321C8BD6E10071A0B9 /* Search */,
+				2E0F222E1C8BD6E10071A0B9 /* Rank */,
 				2E0F22221C8BD6E10071A0B9 /* Others */,
 			);
 			path = Classes;
@@ -122,6 +142,8 @@
 		2E0F22191C8BD6E10071A0B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2EFAC9BA1C8BEE8A001396D1 /* CircleViewController.h */,
+				2EFAC9BB1C8BEE8A001396D1 /* CircleViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -183,7 +205,8 @@
 				2E0F22251C8BD6E10071A0B9 /* MyConst.h */,
 				2E0F22261C8BD6E10071A0B9 /* MyConst.m */,
 				2E0F22271C8BD6E10071A0B9 /* PrefixHeader.pch */,
-				2E0F22291C8BD6E10071A0B9 /* 隶变体.ttf */,
+				2E0F22031C8BD66A0071A0B9 /* AppDelegate.h */,
+				2E0F22041C8BD66A0071A0B9 /* AppDelegate.m */,
 			);
 			path = Others;
 			sourceTree = "<group>";
@@ -191,6 +214,10 @@
 		2E0F22231C8BD6E10071A0B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2EFAC9A81C8BED75001396D1 /* MyNavigationViewController.h */,
+				2EFAC9A91C8BED75001396D1 /* MyNavigationViewController.m */,
+				2EFAC9AA1C8BED75001396D1 /* MyTabBarController.h */,
+				2EFAC9AB1C8BED75001396D1 /* MyTabBarController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -222,6 +249,8 @@
 		2E0F222B1C8BD6E10071A0B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2EFAC9B11C8BEE57001396D1 /* PushViewController.h */,
+				2EFAC9B21C8BEE57001396D1 /* PushViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -253,6 +282,8 @@
 		2E0F222F1C8BD6E10071A0B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2EFAC9B41C8BEE66001396D1 /* RankViewController.h */,
+				2EFAC9B51C8BEE66001396D1 /* RankViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -284,6 +315,8 @@
 		2E0F22331C8BD6E10071A0B9 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2EFAC9B71C8BEE77001396D1 /* SearchViewController.h */,
+				2EFAC9B81C8BEE77001396D1 /* SearchViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -305,6 +338,8 @@
 		2E0F22391C8BEC500071A0B9 /* Categories */ = {
 			isa = PBXGroup;
 			children = (
+				2EFAC9AE1C8BED85001396D1 /* UIBarButtonItem+MyExtension.h */,
+				2EFAC9AF1C8BED85001396D1 /* UIBarButtonItem+MyExtension.m */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -440,9 +475,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E0F22051C8BD66A0071A0B9 /* AppDelegate.m in Sources */,
+				2EFAC9AC1C8BED75001396D1 /* MyNavigationViewController.m in Sources */,
+				2EFAC9B91C8BEE77001396D1 /* SearchViewController.m in Sources */,
 				2E0F22371C8BD6E10071A0B9 /* MyConst.m in Sources */,
 				2E0F22361C8BD6E10071A0B9 /* MoreViewController.m in Sources */,
 				2E0F22021C8BD66A0071A0B9 /* main.m in Sources */,
+				2EFAC9B01C8BED85001396D1 /* UIBarButtonItem+MyExtension.m in Sources */,
+				2EFAC9BC1C8BEE8A001396D1 /* CircleViewController.m in Sources */,
+				2EFAC9B31C8BEE57001396D1 /* PushViewController.m in Sources */,
+				2EFAC9AD1C8BED75001396D1 /* MyTabBarController.m in Sources */,
+				2EFAC9B61C8BEE66001396D1 /* RankViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
