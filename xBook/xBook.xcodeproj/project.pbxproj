@@ -14,9 +14,11 @@
 		2E0F22361C8BD6E10071A0B9 /* MoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F221F1C8BD6E10071A0B9 /* MoreViewController.m */; settings = {ASSET_TAGS = (); }; };
 		2E0F22371C8BD6E10071A0B9 /* MyConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E0F22261C8BD6E10071A0B9 /* MyConst.m */; settings = {ASSET_TAGS = (); }; };
 		2E0F22381C8BD6E10071A0B9 /* 隶变体.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2E0F22291C8BD6E10071A0B9 /* 隶变体.ttf */; settings = {ASSET_TAGS = (); }; };
+		CB63561560326B6CEEF51DE2 /* libPods-xBook.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92A958300BAA8E0F29356F80 /* libPods-xBook.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		07833E423352A94D41862855 /* Pods-xBook.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xBook.release.xcconfig"; path = "Pods/Target Support Files/Pods-xBook/Pods-xBook.release.xcconfig"; sourceTree = "<group>"; };
 		2E0F21FD1C8BD66A0071A0B9 /* xBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0F22011C8BD66A0071A0B9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2E0F22031C8BD66A0071A0B9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,6 +32,8 @@
 		2E0F22261C8BD6E10071A0B9 /* MyConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyConst.m; sourceTree = "<group>"; };
 		2E0F22271C8BD6E10071A0B9 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		2E0F22291C8BD6E10071A0B9 /* 隶变体.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "隶变体.ttf"; sourceTree = "<group>"; };
+		5BBF6613344571F215D876B3 /* Pods-xBook.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xBook.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xBook/Pods-xBook.debug.xcconfig"; sourceTree = "<group>"; };
+		92A958300BAA8E0F29356F80 /* libPods-xBook.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xBook.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,17 +41,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CB63561560326B6CEEF51DE2 /* libPods-xBook.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		162C009C313A2EE3D2D33AF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92A958300BAA8E0F29356F80 /* libPods-xBook.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		2E0F21F41C8BD66A0071A0B9 = {
 			isa = PBXGroup;
 			children = (
 				2E0F21FF1C8BD66A0071A0B9 /* xBook */,
 				2E0F21FE1C8BD66A0071A0B9 /* Products */,
+				8BF672D30AAE343E0138C6FC /* Pods */,
+				162C009C313A2EE3D2D33AF8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -84,12 +99,12 @@
 		2E0F22171C8BD6E10071A0B9 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2E0F22181C8BD6E10071A0B9 /* Circle */,
-				2E0F221C1C8BD6E10071A0B9 /* More */,
-				2E0F22221C8BD6E10071A0B9 /* Others */,
 				2E0F222A1C8BD6E10071A0B9 /* Push */,
 				2E0F222E1C8BD6E10071A0B9 /* Rank */,
 				2E0F22321C8BD6E10071A0B9 /* Search */,
+				2E0F22181C8BD6E10071A0B9 /* Circle */,
+				2E0F221C1C8BD6E10071A0B9 /* More */,
+				2E0F22221C8BD6E10071A0B9 /* Others */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -161,12 +176,13 @@
 		2E0F22221C8BD6E10071A0B9 /* Others */ = {
 			isa = PBXGroup;
 			children = (
+				2E0F22391C8BEC500071A0B9 /* Categories */,
+				2E0F22281C8BD6E10071A0B9 /* View */,
 				2E0F22231C8BD6E10071A0B9 /* Controller */,
 				2E0F22241C8BD6E10071A0B9 /* Model */,
 				2E0F22251C8BD6E10071A0B9 /* MyConst.h */,
 				2E0F22261C8BD6E10071A0B9 /* MyConst.m */,
 				2E0F22271C8BD6E10071A0B9 /* PrefixHeader.pch */,
-				2E0F22281C8BD6E10071A0B9 /* View */,
 				2E0F22291C8BD6E10071A0B9 /* 隶变体.ttf */,
 			);
 			path = Others;
@@ -286,6 +302,22 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		2E0F22391C8BEC500071A0B9 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		8BF672D30AAE343E0138C6FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5BBF6613344571F215D876B3 /* Pods-xBook.debug.xcconfig */,
+				07833E423352A94D41862855 /* Pods-xBook.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -293,9 +325,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E0F22141C8BD66A0071A0B9 /* Build configuration list for PBXNativeTarget "xBook" */;
 			buildPhases = (
+				CC71C54FC670D0A9E72A586E /* Check Pods Manifest.lock */,
 				2E0F21F91C8BD66A0071A0B9 /* Sources */,
 				2E0F21FA1C8BD66A0071A0B9 /* Frameworks */,
 				2E0F21FB1C8BD66A0071A0B9 /* Resources */,
+				1133A757CDBA53E90CA8EA08 /* Embed Pods Frameworks */,
+				58F817D2DF746FD5D2F3EF40 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -350,6 +385,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1133A757CDBA53E90CA8EA08 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xBook/Pods-xBook-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		58F817D2DF746FD5D2F3EF40 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xBook/Pods-xBook-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC71C54FC670D0A9E72A586E /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2E0F21F91C8BD66A0071A0B9 /* Sources */ = {
@@ -459,10 +542,11 @@
 		};
 		2E0F22151C8BD66A0071A0B9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BBF6613344571F215D876B3 /* Pods-xBook.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Classes/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Classes/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = xBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.hehe.xBook;
@@ -472,10 +556,11 @@
 		};
 		2E0F22161C8BD66A0071A0B9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07833E423352A94D41862855 /* Pods-xBook.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Classes/PrefixHeader.pch";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/Classes/Others/PrefixHeader.pch";
 				INFOPLIST_FILE = xBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.hehe.xBook;
